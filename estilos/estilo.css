@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient( #c2348b, #310cd6);  
+}
+img{
+    width: 950px;
+}
+video{
+    width: 400px; ;
+} 
+#slider{
+    width: 950px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#slider ul{
+list-style: none;
+width: 2850px;
+display: flex;
+animation: slide 10s infinite alternate;
+}
+@keyframes slide{
+    0% {margin-left: 0px;}
+    40% {margin-left: 0px;}
+
+    45% {margin-left: -950px;}
+    70% {margin-left: -950px;}
+
+    80% {margin-left: -1900px;}
+    100% {margin-left:-1900px;}
+}
+#menu-h{
+ max-width: 950px;   
+ min-height: 50px;
+ background:lawngreen;
+ margin: 0 auto;
+}
+#menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border: solid 4px black;
+}
+#menu-h a{
+    color: red;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: lawngreen ;
+    font-size: 18px;
+}
+#menu-h a:hover{
+    background: lemonchiffon;
+}
+#contenido{
+    width: 950px;
+    min-height: 400px;
+    margin: auto;
+    border: #141413 4px solid;
+}
+#contenedor{
+    width: 80%;
+    margin: auto;
+    border: 1px solid blueviolet;
+}
+header{
+    background: #d0df05c5;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    /*centra el texto verticalmente*/
+    line-height: 100px;
+    color: rgb(139, 0, 86);
+}
+#seccion{
+    float: left;
+    width: 80%;
+    min-height: 400px;
+    background:lightcoral;
+}
+aside{
+    float: left;
+    width: 20%;
+    background: lightseagreen;
+    min-height: 400px;
+}
+footer{
+    width: 950px;
+    min-height: 40px;
+    background: lightsalmon;
+    color: #1714e6;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    border: solid 4px #141413;
+}
+#main-container{
+    width:950px ;
+    margin:0px auto ;
+}
+table{
+    background-color: aqua;
+    text-align: left;
+    width: 100%;
+}
+tr, td{
+border: solid 2px rgb(204, 56, 130);
+padding: 0;
+}
